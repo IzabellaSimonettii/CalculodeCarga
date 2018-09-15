@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cálculo de Carga</string>
+    <string name="codEstado">Código do Estado</string>
+    <string name="codCarga">Cógido da Carga</string>
+    <string name="pesoCarga">Peso da Carga</string>
+    <string name="infPesoCarga">Informe o peso da carga</string>
+    <string name="vlImposto">Valor do Imposto: </string>
+    <string name="vlLiqCarga">Valor liquido carga: </string>
+    <string name="pesoKg">Peso da Carga (KG): </string>
+    <string name="kg">60</string>
+</resources>

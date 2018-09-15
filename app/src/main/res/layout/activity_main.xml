@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:rowCount="9"
+    android:useDefaultMargins="true"
+    android:columnCount="1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:background="@color/colorBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:layout_row="0"
+        android:text="@string/codEstado" />
+
+    <Spinner
+        android:id="@+id/spEstado"
+        android:layout_width="100dp"
+        android:layout_column="0"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:background="@color/colorBackground"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="wrap_content"
+        android:textAlignment="center"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:text="@string/codCarga" />
+
+    <Spinner
+        android:id="@+id/spCarga"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+         />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:id="@+id/etPesoCarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:textAlignment="center"
+        android:hint="@string/infPesoCarga"
+        android:inputType="number"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:text="@string/vlImposto" />
+
+        <TextView
+            android:id="@+id/tvValorImposto"
+            android:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kg" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/vlLiqCarga" />
+
+        <TextView
+            android:id="@+id/tvValorLiqCarga"
+            android:layout_width="wrap_content"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:text="@string/kg" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_column="0"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/pesoKg" />
+
+        <TextView
+            android:id="@+id/tvPesoCargaKg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:text="@string/kg" />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/codEstado" />
+
+</GridLayout>
